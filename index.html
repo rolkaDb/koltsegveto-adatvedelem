@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adatvédelmi tájékoztató — Költségvető</title>
+<meta name="description" content="A Költségvető alkalmazás adatvédelmi tájékoztatója. Az alkalmazás nem gyűjt és nem továbbít adatot.">
+<style>
+  :root {
+    --bg: #FBFCFE;
+    --card: #FFFFFF;
+    --text: #1B2430;
+    --muted: #5B6875;
+    --line: #E3E9F0;
+    --accent: #2C6FB5;
+    --mark-bg: #FFF4CE;
+    --mark-text: #6B4E00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181D;
+      --card: #1B2027;
+      --text: #E7ECF2;
+      --muted: #9BA7B4;
+      --line: #2C343D;
+      --accent: #6FB0EE;
+      --mark-bg: #4A3B12;
+      --mark-text: #FFE9A8;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0 20px 80px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  main { max-width: 720px; margin: 0 auto; }
+
+  header {
+    padding: 56px 0 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 36px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0 0 10px;
+    letter-spacing: -0.01em;
+  }
+
+  .effective { color: var(--muted); font-size: 15px; margin: 0; }
+
+  h2 {
+    font-size: 21px;
+    margin: 44px 0 12px;
+    letter-spacing: -0.01em;
+  }
+
+  p { margin: 0 0 16px; }
+
+  .lead {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 8px;
+  }
+
+  .lead p:last-child { margin-bottom: 0; }
+
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+
+  .table-wrap { overflow-x: auto; margin: 0 0 20px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    min-width: 420px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 1px 6px;
+  }
+
+  a { color: var(--accent); }
+
+  mark {
+    background: var(--mark-bg);
+    color: var(--mark-text);
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    header { padding-top: 40px; }
+    h1 { font-size: 25px; }
+    h2 { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Adatvédelmi tájékoztató</h1>
+  <p class="effective">Költségvető alkalmazás · Hatályos: 2026. augusztus 25.</p>
+</header>
+
+<section class="lead">
+  <p><strong>A Költségvető alkalmazás nem gyűjt, nem továbbít és nem tárol rólad
+  semmilyen adatot.</strong> Nincs mögötte szerver, nincs felhasználói fiók, és
+  nincs benne analitika vagy hirdetés. Amit az alkalmazásba beírsz, az a saját
+  készülékeden marad.</p>
+  <p>Ez a tájékoztató azt írja le részletesen, mit jelent ez a gyakorlatban.</p>
+</section>
+
+<h2>Ki kezeli az adataidat</h2>
+<p>Senki — abban az értelemben, hogy az alkalmazás fejlesztője soha nem fér hozzá
+az adataidhoz, mert azok el sem hagyják a készülékedet.</p>
+<p>Az alkalmazás fejlesztője és a tájékoztató kiadója:</p>
+<ul>
+  <li><strong>Név:</strong> <mark>[ide a neved kerül]</mark></li>
+  <li><strong>E-mail:</strong> <a href="mailto:rolcsi1395@gmail.com">rolcsi1395@gmail.com</a></li>
+</ul>
+
+<h2>Milyen adatokat kezel az alkalmazás</h2>
+<p>Az alkalmazás azokat az adatokat tárolja, amelyeket te magad viszel be:</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Adat</th><th>Mire szolgál</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tételek (összeg, kategória, megjegyzés, dátum, típus)</td>
+      <td>A kiadásaid és bevételeid nyilvántartása</td>
+    </tr>
+    <tr>
+      <td>Ismétlődő tételek szabályai</td>
+      <td>A rendszeresen visszatérő tételek automatikus létrehozása</td>
+    </tr>
+    <tr>
+      <td>Beállítások (havi keret, pénznemek és árfolyamok)</td>
+      <td>Az alkalmazás működésének testreszabása</td>
+    </tr>
+    <tr>
+      <td>Megjelenési beállítások (színvilág, háttér erőssége)</td>
+      <td>A kinézet megjegyzése</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Az alkalmazás <strong>nem kér és nem használ</strong> helyadatot, névjegyeket,
+kamerát, mikrofont, egészségügyi adatot, hirdetési azonosítót, és nem olvassa a
+más alkalmazásokban végzett tevékenységedet.</p>
+
+<p>Nem kér tőled nevet, e-mail-címet, telefonszámot vagy bármilyen más
+azonosítót. Nincs regisztráció és nincs bejelentkezés.</p>
+
+<h2>Hol tárolódnak ezek az adatok</h2>
+<p>Kizárólag <strong>a saját készülékeden</strong>, az alkalmazás elkülönített
+tárterületén. Ehhez a területhez az Android rendszer szabályai szerint más
+alkalmazások nem férnek hozzá.</p>
+<p>Az alkalmazás nem küld adatot semmilyen szervernek. Ezt nem csak ígéretként
+írjuk le: a program egyetlen hálózati hívást sem tartalmaz.</p>
+
+<h2>Adattovábbítás</h2>
+<p>Az alkalmazás magától soha nem továbbít adatot sehova. Két olyan eset van,
+amikor adat mégis elhagyhatja a készüléket — <strong>mindkettő csak a te
+kifejezett kezdeményezésedre</strong>:</p>
+
+<p><strong>1. Mentés készítése.</strong> A <code>Profil</code> képernyőn kérheted,
+hogy az alkalmazás írja ki az adataidat egy fájlba. Ekkor megnyílik a rendszer
+megosztóablaka, és te döntöd el, hova kerüljön a fájl: a készülék tárhelyére,
+e-mailbe, felhőtárhelyre vagy máshova. Ettől a ponttól a fájl sorsa rajtad és a
+választott alkalmazáson múlik — a Költségvetőnek nincs rá további ráhatása.</p>
+
+<p><strong>2. Visszatöltés.</strong> Egy korábban készített mentésfájlt
+beolvashatsz. Ilyenkor a rendszer fájlválasztójából te jelölöd ki a fájlt; az
+alkalmazás csak ahhoz az egy fájlhoz fér hozzá, amit kiválasztottál.</p>
+
+<h2>Rendszerszintű biztonsági mentés</h2>
+<p>Az Android rendszernek van egy beépített funkciója, amely az alkalmazások
+adatait automatikusan elmentheti a <strong>saját Google-fiókodhoz tartozó Google
+Drive-ba</strong>, hogy új készüléken vagy újratelepítés után visszaálljanak.</p>
+<p>Ezt a mentést az operációs rendszer végzi, nem a Költségvető, és a te
+Google-fiókod védi. A készülék beállításaiban bármikor kikapcsolhatod
+(<code>Beállítások → Google → Biztonsági mentés</code>).</p>
+<p>Fontosnak tartjuk megemlíteni, mert ez az egyetlen út, amelyen az adataid a
+készüléken kívülre kerülhetnek anélkül, hogy külön kérnéd.</p>
+
+<h2>Meddig őrizzük meg az adataidat</h2>
+<p>Ameddig te szeretnéd. Mivel minden a készülékeden van, a megőrzés kizárólag
+rajtad múlik.</p>
+<p>Az adatok teljes törléséhez:</p>
+<ul>
+  <li>töröld az egyes tételeket az alkalmazásban, <strong>vagy</strong></li>
+  <li>töröld az alkalmazás adatait
+      (<code>Beállítások → Alkalmazások → Költségvető → Tárhely → Adatok törlése</code>),
+      <strong>vagy</strong></li>
+  <li>távolítsd el az alkalmazást — ezzel a tárolt adatok is törlődnek.</li>
+</ul>
+<p>Ha korábban készítettél mentésfájlt vagy be van kapcsolva a rendszerszintű
+mentés, azokról külön kell gondoskodnod.</p>
+
+<h2>A te jogaid</h2>
+<p>Az európai adatvédelmi rendelet (GDPR) hozzáférési, helyesbítési, törlési és
+adathordozhatósági jogot biztosít. Mivel az adataidat kizárólag te tárolod és
+csak te éred el, ezeket a jogokat közvetlenül, kérelmezés nélkül
+gyakorolhatod:</p>
+<ul>
+  <li><strong>Hozzáférés:</strong> az adatok az alkalmazásban láthatók.</li>
+  <li><strong>Helyesbítés:</strong> bármelyik tétel szerkeszthető.</li>
+  <li><strong>Törlés:</strong> a fentiek szerint.</li>
+  <li><strong>Adathordozhatóság:</strong> a mentés funkció szabványos
+      JSON-fájlt készít, amit bárhova elvihetsz.</li>
+</ul>
+<p>Nincs olyan kérelem, amit hozzánk kellene benyújtanod, mert nincs nálunk
+semmilyen adatod.</p>
+
+<h2>Gyermekek</h2>
+<p>Az alkalmazás nem gyűjt adatot senkiről, így gyermekekről sem. Nem tartalmaz
+hirdetést, vásárlási lehetőséget és külső tartalmat.</p>
+
+<h2>A tájékoztató változásai</h2>
+<p>Ha a jövőben olyan funkció kerül az alkalmazásba, amely ezen változtat, ezt a
+tájékoztatót frissítjük, és a fenti hatálybalépési dátumot módosítjuk. A lényegi
+változásokról az alkalmazás frissítési leírásában is szólunk.</p>
+
+<h2>Kapcsolat</h2>
+<p>Kérdés esetén: <a href="mailto:rolcsi1395@gmail.com">rolcsi1395@gmail.com</a></p>
+
+<footer>
+  Költségvető — adatvédelmi tájékoztató · Utolsó frissítés: 2026. augusztus 25.
+</footer>
+
+</main>
+</body>
+</html>
